@@ -8,7 +8,7 @@ async def launch_web_ui(update: Update, callback: CallbackContext):
     # display our web-app!
     kb = [
         [KeyboardButton(
-            "Open Paysmaker",
+            "Open App",
             web_app=WebAppInfo(WEBAPP_URL)
         )]
     ]
